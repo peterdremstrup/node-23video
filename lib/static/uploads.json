@@ -1,0 +1,22 @@
+[
+    {
+        "name": "/api/podcast/set-metadata",
+        "property": "icon"
+    },
+    {
+        "name": "/api/photo/replace",
+        "property": "file"
+    },
+    {
+        "name": "/api/photo/upload",
+        "property": "file"
+    },
+    {
+        "name": "/api/photo/section/set-thumbnail",
+        "property": "file"
+    },
+    {
+        "name": "/api/action/upload",
+        "property": "file"
+    }
+]

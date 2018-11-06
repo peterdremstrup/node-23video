@@ -1,15 +1,18 @@
 {
   "name": "node-23video",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "node-23video is a full implementation of The 23 Video API (or more correctly, The Visualplatform API) for Node.js.",
   "main": "lib/visualplatform.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -m 30000 -v"
   },
   "dependencies": {
-    "promise": "~5.0.0",
-    "restler": "~3.1.0",
-    "commander": "~2.3.0"
+    "commander": "~2.3.0",
+    "mime-types": "^2.1.20",
+    "oauth-1.0a": "^2.2.4",
+    "request": "^2.88.0",
+    "restler": "git+https://github.com/kundaiAtPropertyMe/restler.git",
+    "superagent": "^4.0.0-beta.5"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,13 @@
   "bugs": {
     "url": "https://github.com/23/node-23video/issues"
   },
-  "homepage": "https://github.com/23/node-23video"
+  "homepage": "https://github.com/23/node-23video",
+  "devDependencies": {
+    "code": "^5.2.0",
+    "dotenv": "^6.1.0",
+    "lab": "^16.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "sinon": "^7.0.0"
+  }
 }

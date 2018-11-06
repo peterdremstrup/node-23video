@@ -1,4 +1,11 @@
 *~
+.env
 .DS_Store
 node_modules
 restler
+*.png
+*.m4a
+*.wav
+*.mp3
+*.jpg
+*.swp

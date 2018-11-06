@@ -1,0 +1,15 @@
+[
+    "/api/album/list",
+    "/api/comment/list/",
+    "/api/license/list",
+    "/api/live/list",
+    "/api/photo/frame",
+    "/api/photo/list",
+    "/api/player/list",
+    "/api/player/settings",
+    "/api/photo/section/list",
+    "/api/site/get",
+    "/api/photo/subtitle/list",
+    "/api/tag/list",
+    "/api/tags/related"
+]
